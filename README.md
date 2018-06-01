@@ -1,5 +1,9 @@
 # FindSVSingularity
-Singularity container for the FindSV pipeline
+Singularity container for the FindSV pipeline. Use the following command to download the container
+
+    singularity pull --name FindSV.img shub://J35P312/FindSVSingularity
+
+
 
 # Contains
 
