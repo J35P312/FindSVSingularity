@@ -17,6 +17,8 @@ Singularity container for the FindSV pipeline. Use the following command to down
 
     samtools
 
+    CNVnator
+
     python 2.7, including all modules for running FINDSV
 
 # Usage
@@ -30,6 +32,8 @@ You may run any of the included packages manually:
 
     singularity exec FindSV.simg svdb
 
+    singularity exec FindSV.simg /opt/CNVnator_v0.3.3/src/cnvnator
+
     singularity exec FindSV.simg python
 
     singularity exec FindSV.simg python /opt/TIDDIT/TIDDIT.py
@@ -37,8 +41,6 @@ You may run any of the included packages manually:
 # To be added
 These modules still needs to be added
     
-    CNVnator
-
     VEP
 
     manta
