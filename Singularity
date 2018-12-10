@@ -47,7 +47,7 @@ LD_LIBRARY_PATH=/opt/root/lib
     conda config --add channels conda-forge
     conda config --add channels bioconda
 
-    conda install -c bioconda samtools
+    conda install -c bioconda samtools vt
 
     pip install genmod pyaml
 
