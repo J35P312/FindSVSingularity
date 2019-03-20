@@ -49,5 +49,5 @@ LD_LIBRARY_PATH=/opt/root/lib
 
     conda install -c bioconda samtools vt
 
-    pip install genmod pyaml
+    pip install genmod pyaml pysam
 
