@@ -37,8 +37,8 @@ LD_LIBRARY_PATH=/opt/root/lib
     cd /opt/CNVnator_v0.3.3/src/samtools/ && make
     cd /opt/CNVnator_v0.3.3/src/ && make
 
-    cd /opt/ && wget https://github.com/SciLifeLab/TIDDIT/archive/TIDDIT-2.8.0.zip && unzip TIDDIT-2.8.0.zip
-    mv /opt/TIDDIT-TIDDIT-2.8.0 /opt/TIDDIT
+    cd /opt/ && wget https://github.com/SciLifeLab/TIDDIT/archive/TIDDIT-2.12.0.zip && unzip TIDDIT-2.12.0.zip
+    mv /opt/TIDDIT-TIDDIT-2.12.0 /opt/TIDDIT
     cd /opt/TIDDIT && ./INSTALL.sh .
 
     cd /opt/ && git clone https://github.com/J35P312/SVDB.git  
